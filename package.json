@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Backend to serve maze-factory to maze-studio",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "dev": "node --env-file=.env index.js"
+  },
+  "author": "Tom Scott",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-addon-api": "^8.1.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.2.0"
+  }
+}
